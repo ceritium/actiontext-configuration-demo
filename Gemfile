@@ -5,7 +5,8 @@ ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 # gem 'rails', '~> 6.1.4'
-gem 'rails', path: '../rails-dev-box/rails'
+# gem 'rails', path: '../rails-dev-box/rails'
+gem 'rails', git: 'https://github.com/ceritium/rails.git', branch: 'actiontext-class'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server

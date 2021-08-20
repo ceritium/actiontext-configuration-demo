@@ -1,5 +1,7 @@
-PATH
-  remote: ../rails-dev-box/rails
+GIT
+  remote: https://github.com/ceritium/rails.git
+  revision: 0fd203b9ccaae2f114bf609d71c8a6314492ad22
+  branch: actiontext-class
   specs:
     actioncable (7.0.0.alpha)
       actionpack (= 7.0.0.alpha)
